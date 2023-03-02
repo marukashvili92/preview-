@@ -140,7 +140,7 @@ button {
         padding: 15px 62px 16px 69px;
     }
 
-    bottom:hover {
+    button:hover {
         cursor: pointer;
         background-color: #1A4032;
     }
