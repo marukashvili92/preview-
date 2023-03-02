@@ -1,0 +1,148 @@
+body {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2F2F2;
+
+}
+
+main {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 343px;
+}
+
+.mobile-img {
+    width: 343px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.desctop-img {
+    display: none;
+}
+
+section {
+    padding: 24px;
+}
+
+h3 {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 32px;
+    color: #1C232B;
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+
+.details {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 23px;
+    color: #6C7289;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 32px;
+    color: #3D8168;
+
+}
+
+.discount {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.813rem;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: #6C7289;
+}
+
+button {
+    display: flex;
+    background-color: #3D8168;
+    border-color: #3D8168;
+    padding: 15px 92px;
+    border-radius: 8px;
+}
+
+.cart {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width:1024px) {
+    main {
+        max-width: 600px;
+        display: flex;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .desctop-img {
+        display: block;
+        width: 300px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+    }
+
+    section {
+        padding: 32px;
+    }
+
+    h1 {
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }
+
+    .price {
+        padding: 29px 0 30px 0;
+    }
+
+    button {
+        padding: 15px 62px 16px 69px;
+    }
+
+    bottom:hover {
+        cursor: pointer;
+        background-color: #1A4032;
+    }
+
+}
